@@ -4,7 +4,6 @@
 
 Gallery Web App is a way of sharing the works with the public. Users would be able to upload their photos, and the application has an image recognition feature that automatically tags and categories them. The site has in place a Masonry layout that displays images dynamically, viewing them attractively. Key features include:
 
-*- **Image Recognition**: Uploaded photos get automatically tagged and categorized.
 - Masonry Layout: Results of pictures come in grid layout. Pictures automatically change according to different screen sizes.
 - Like, Comment, and Follow: Facility of liking any photo, making comments on any photo, and following other users.
 - Photo Management: This feature is also available for managing photos.
