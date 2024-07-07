@@ -1,0 +1,36 @@
+.search-bar {
+    border-radius: 50px;
+    height: 35px;
+}
+.btn-navbar {
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50rem;
+    background-color: white;
+    color: black;
+}
+.btn-navbar.active {
+    color: white;
+    background-color: black;
+}
+
+.dropdown-menu-profil{
+    top: 60px;
+    right: 0;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    border: none;
+    transition: 0.3s ease;
+}
+.dropdown-menu-profil.show{
+    top: 50px;
+    visibility: visible;
+    opacity: 1;
+}
+.btn-logout:active {
+    color: white !important;
+    background-color: rgba(255, 0, 0, 0.7) !important;
+}

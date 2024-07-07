@@ -1,0 +1,65 @@
+.post {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 200px;
+}
+
+.post-container.profil .post {
+    height: 250px;
+}
+
+.post img {
+    filter: brightness(0.9);
+}
+
+.post-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.post.active .post-content,
+.post:hover .post-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.post-action-wrapper {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.post-action {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-footer {
+    height: fit-content;
+    max-height: 40px;
+}
+
+@media (min-width: 576px) {
+    .post {
+        height: fit-content;
+        max-height: 800px;
+    }
+}

@@ -1,0 +1,80 @@
+.text-jelajahi {
+    position: relative;
+    width: fit-content;
+    font-weight: 600;
+}
+.text-jelajahi::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    bottom: -6px;
+    left: 5px;
+    background-color: black;
+}
+.popup-buat-postingan {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.wrap-text {
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.btn-pagination {
+    padding: 0;
+    height: 35px;
+    width: 35px;
+    top: 50%;
+    transform: translateY(calc(-50% - 20px));
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.btn-pagination.sebelum {
+    left: -15px;
+}
+.btn-pagination.sesudah {
+    right: -15px;
+}
+
+.swiper-button-disabled {
+    opacity: 0 !important;
+}
+
+.page-item.active .page-link{
+    background-color: black;
+    color: white;
+}
+
+.table td.fit,
+.table th.fit {
+    padding-left: 15px;
+    padding-right: 15px;
+    white-space: nowrap;
+    width: 1%;
+}
+
+.pagination {
+    --bs-pagination-color: black;
+}

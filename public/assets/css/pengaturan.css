@@ -1,0 +1,13 @@
+.btn-menu {
+    font-size: 15px;
+    text-align: start;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    width: 100%;
+}
+
+.btn-menu:hover,
+.btn-menu.active {
+    background-color: #f8f9fa;
+}

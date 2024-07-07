@@ -1,0 +1,49 @@
+.mask-text-logo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.mask-text-logo h1 {
+    color: white;
+}
+
+.banner {
+    height: 100px;
+}
+
+.register-container .banner {
+    position: static
+}
+
+.form {
+    height: calc(100% - 100px);
+}
+
+.register-container .form {
+    min-height: calc(100vh -100px);
+}
+
+@media (min-width: 576px) { 
+    .banner {
+        height: 100%;
+    }
+    
+    .form {
+        height: 100%;
+    }
+    
+    .register-container .form {
+        min-height: 100vh;
+    }
+
+    .register-container {
+        padding-left: 25%;
+    }
+    
+    .register-container .banner {
+        position: fixed;
+        left: 0;
+    }
+}
